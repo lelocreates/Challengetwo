@@ -1,6 +1,6 @@
-import company form 'configuration'
-import year form 'configuration'
-
-const message = '© ' + company + ' (' + year + ')'
+import company from 'configuration';
+import year from 'configuration';
+//incorrect spelling of from//
+message = '© ' + company + year
 document.querySelector('footer').innerText = message
 
